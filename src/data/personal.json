@@ -9,5 +9,14 @@
   "experienceYears": "3+",
   "domainsCount": "4",
   "mbaStatus": "MBA",
-  "aiStatus": "AI"
+  "aiStatus": "AI",
+  "resumeUrl": "/resume/Anandhu_Jayan_Resume.pdf",
+  "yearsLearningLabel": "Years Learning",
+  "experienceYearsLabel": "Years Experience",
+  "domainsCountLabel": "Professional Domains",
+  "mbaStatusLabel": "In Progress",
+  "aiStatusLabel": "Building AI Solutions",
+  "aboutHeading": "About Me",
+  "aboutIntroductionLabel": "Introduction",
+  "aboutBioLabel": "Bio"
 }

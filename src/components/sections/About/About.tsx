@@ -10,11 +10,11 @@ export default function About() {
   return (
     <Section id="about" className="py-20">
       <Container>
-        <Heading as="h2" className="mb-10 text-center">About Me</Heading>
+        <Heading as="h2" className="mb-10 text-center">{personal.aboutHeading}</Heading>
         
         <div className="grid md:grid-cols-2 gap-8">
           <GlassCard className="p-6">
-            <h3 className="text-xl font-semibold mb-4 text-white">Introduction</h3>
+            <h3 className="text-xl font-semibold mb-4 text-white">{personal.aboutIntroductionLabel}</h3>
             <p className="text-muted-foreground leading-relaxed">
               {personal.longAboutMe}
             </p>
@@ -22,7 +22,7 @@ export default function About() {
 
           <div className="space-y-6">
             <GlassCard className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-white">Bio</h3>
+              <h3 className="text-xl font-semibold mb-4 text-white">{personal.aboutBioLabel}</h3>
               <p className="text-muted-foreground leading-relaxed">
                 {personal.shortBio}
               </p>

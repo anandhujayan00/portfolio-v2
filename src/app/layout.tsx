@@ -39,8 +39,23 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: data.personal.fullName,
+    url: data.seo.canonicalUrl,
+    jobTitle: data.personal.jobTitle,
+    description: data.seo.description,
+  };
+
   return (
     <html lang="en" className="dark scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={`${inter.variable} ${poppins.variable} font-inter antialiased bg-background text-foreground`}
       >

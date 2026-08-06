@@ -43,6 +43,15 @@ export interface PersonalData {
   domainsCount: string;
   mbaStatus: string;
   aiStatus: string;
+  resumeUrl: string;
+  yearsLearningLabel: string;
+  experienceYearsLabel: string;
+  domainsCountLabel: string;
+  mbaStatusLabel: string;
+  aiStatusLabel: string;
+  aboutHeading: string;
+  aboutIntroductionLabel: string;
+  aboutBioLabel: string;
 }
 
 export interface EducationItem {
