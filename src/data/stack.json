@@ -1,0 +1,73 @@
+{
+  "title": "Professional Toolkit",
+  "subtitle": "The technologies, platforms, and AI tools I use in my professional work and continuous learning.",
+  "categories": [
+    {
+      "title": "Engineering",
+      "items": [
+        { "name": "SolidWorks", "icon": "Wrench" },
+        { "name": "AutoCAD", "icon": "DraftingCompass" },
+        { "name": "CATIA (Basic)", "icon": "Box" },
+        { "name": "Engineering Drawings", "icon": "FileText" },
+        { "name": "Mechanical Systems", "icon": "Settings" }
+      ]
+    },
+    {
+      "title": "Logistics & Operations",
+      "items": [
+        { "name": "SAP", "icon": "Database" },
+        { "name": "WMS", "icon": "Warehouse" },
+        { "name": "Inventory Management", "icon": "Package" },
+        { "name": "GRN Processing", "icon": "CheckSquare" },
+        { "name": "RF Scanner Operations", "icon": "Scan" },
+        { "name": "Order Picking & Packing", "icon": "BoxSelect" },
+        { "name": "Stock Auditing", "icon": "ClipboardCheck" },
+        { "name": "Shipping Documentation", "icon": "FileStack" }
+      ]
+    },
+    {
+      "title": "Office & Productivity",
+      "items": [
+        { "name": "Microsoft Excel", "icon": "FileSpreadsheet" },
+        { "name": "Microsoft Word", "icon": "FileText" },
+        { "name": "PowerPoint", "icon": "Presentation" },
+        { "name": "Google Workspace", "icon": "Mail" },
+        { "name": "Data Analysis", "icon": "BarChart2" },
+        { "name": "Report Preparation", "icon": "FileEdit" }
+      ]
+    },
+    {
+      "title": "Design",
+      "items": [
+        { "name": "Adobe Photoshop", "icon": "Image" },
+        { "name": "Canva", "icon": "Layout" },
+        { "name": "Poster Design", "icon": "Palette" },
+        { "name": "Branding", "icon": "PenTool" }
+      ]
+    },
+    {
+      "title": "AI & Productivity",
+      "items": [
+        { "name": "ChatGPT", "icon": "MessageSquare" },
+        { "name": "Cursor AI", "icon": "Cpu" },
+        { "name": "Gemini CLI", "icon": "Terminal" },
+        { "name": "Prompt Engineering", "icon": "Command" },
+        { "name": "AI-assisted Research", "icon": "Search" },
+        { "name": "AI-assisted Software Development", "icon": "Code" },
+        { "name": "Workflow Automation", "icon": "Zap" }
+      ]
+    },
+    {
+      "title": "Currently Learning",
+      "items": [
+        { "name": "Modern Web Development", "icon": "Globe" },
+        { "name": "React", "icon": "Atom" },
+        { "name": "Next.js", "icon": "Layout" },
+        { "name": "Tailwind CSS", "icon": "Wind" },
+        { "name": "TypeScript Fundamentals", "icon": "Type" },
+        { "name": "UI/UX Principles", "icon": "Figma" }
+      ],
+      "activeLearning": true
+    }
+  ]
+}

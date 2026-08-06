@@ -1,0 +1,29 @@
+[
+  {
+    "id": "edu-1",
+    "degree": "MBA – Human Resource Management",
+    "institution": "Andhra University",
+    "location": "India",
+    "university": "Andhra University",
+    "specialization": "Business Management",
+    "startYear": "2026",
+    "endYear": "Present",
+    "status": "In Progress",
+    "description": "Currently pursuing a Master of Business Administration (Human Resource Management), developing knowledge in organizational behavior, talent management, leadership, strategic management, business communication, and managerial decision-making while strengthening overall business and management skills.",
+    "icon": "GraduationCap"
+  },
+  {
+    "id": "edu-2",
+    "degree": "B.Tech Mechanical Engineering",
+    "institution": "Kottayam Institute of Technology & Science (KITS)",
+    "affiliation": "Affiliated to APJ Abdul Kalam Technological University (KTU), Kerala",
+    "location": "Kerala, India",
+    "university": "Kottayam Institute of Technology & Science",
+    "specialization": "Mechanical Engineering",
+    "startYear": "2019",
+    "endYear": "2023",
+    "status": "Completed",
+    "description": "Developed knowledge in mechanical systems, engineering design, manufacturing, CAD software, technical analysis, and practical problem-solving through laboratory work, workshops, and engineering projects.",
+    "icon": "School"
+  }
+]

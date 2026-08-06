@@ -1,0 +1,113 @@
+{
+  "name": "Anandhu Jayan",
+  "headline": "Engineering Precision | Logistics Excellence | MBA in Progress",
+  "tagline": "Innovating Across Fields. Delivering Beyond Expectations.",
+  "about": {
+    "intro": "Hi, I'm Anandhu Jayan, a Mechanical Engineering graduate currently building my career in logistics and warehouse operations. Currently pursuing MBA, I am passionate about operations, logistics, supply chain and business management.",
+    "strengths": ["Problem Solving", "Adaptability", "Teamwork", "Communication", "Continuous Learning"],
+    "focusAreas": ["SAP", "WMS", "GRN", "Inventory", "Shipping", "Documentation"]
+  },
+  "statistics": [
+    { "label": "Years Learning", "value": "7+" },
+    { "label": "Projects", "value": "15+" },
+    { "label": "Certificates", "value": "10+" },
+    { "label": "Skills", "value": "20+" },
+    { "label": "Experience", "value": "3+ Yrs" }
+  ],
+  "education": [
+    {
+      "degree": "MBA",
+      "university": "Andhra University",
+      "year": "2026",
+      "status": "In Progress"
+    },
+    {
+      "degree": "B.Tech Mechanical Engineering",
+      "university": "Kottayam Institute of Technology & Science",
+      "year": "2023",
+      "status": "Completed"
+    },
+    {
+      "degree": "Higher Secondary",
+      "university": "Board of Kerala",
+      "year": "2019",
+      "status": "Completed"
+    },
+    {
+      "degree": "SSLC",
+      "university": "Board of Kerala",
+      "year": "2017",
+      "status": "Completed"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Binzagr Logistics",
+      "role": "Warehouse Operator",
+      "location": "Saudi Arabia",
+      "duration": "Current",
+      "responsibilities": ["SAP", "WMS", "GRN", "Inventory", "Shipping", "Picking", "Packing", "Cycle Count", "RF Scanner"]
+    },
+    {
+      "company": "Lourdes Matha Group of Institutions",
+      "role": "Public Relations Officer",
+      "location": "Kerala, India",
+      "duration": "Past",
+      "responsibilities": ["PR Campaigns", "Admissions Strategy", "Outreach"]
+    },
+    {
+      "company": "Sarabhai Institute of Science and Technology",
+      "role": "Mechanical Lab Assistant",
+      "location": "Kerala, India",
+      "duration": "Past",
+      "responsibilities": ["Lab Maintenance", "Student Support", "Equipment Handling"]
+    }
+  ],
+  "skills": {
+    "Engineering": ["SolidWorks", "AutoCAD", "CATIA"],
+    "Logistics": ["SAP", "WMS", "RF Scanner", "Inventory Management"],
+    "Software": ["Excel", "Word", "PowerPoint"],
+    "Design": ["Photoshop", "Canva"],
+    "Web": ["Google Sites", "SEO", "Cloudflare"],
+    "AI": ["ChatGPT", "Automation"]
+  },
+  "achievements": [
+    "Improved inventory accuracy through systematic cycle counting.",
+    "Successfully handled PR campaigns for Lourdes Matha Group.",
+    "Supported engineering laboratories during academic tenure.",
+    "Improved student admissions through outreach strategy."
+  ],
+  "projects": [
+    {
+      "title": "Mechanical Component Design",
+      "description": "Design and analysis of complex mechanical components using SolidWorks and CATIA.",
+      "tags": ["Engineering", "CAD"]
+    },
+    {
+      "title": "Warehouse Layout Optimization",
+      "description": "Streamlining warehouse operations and layout for improved picking efficiency.",
+      "tags": ["Logistics", "Operations"]
+    },
+    {
+      "title": "SEO & Domain Strategy",
+      "description": "Implementing SEO best practices and Cloudflare management for web portfolios.",
+      "tags": ["Web", "Marketing"]
+    }
+  ],
+  "contact": {
+    "email": "mail@anandhujayan.com",
+    "linkedin": "https://linkedin.com/in/anandhu-jayan-b403a4227",
+    "availability": "Available for opportunities"
+  },
+  "navigation": [
+    { "label": "About", "href": "#about" },
+    { "label": "Journey", "href": "#journey" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "socials": [
+    { "label": "LinkedIn", "href": "https://linkedin.com/in/anandhu-jayan-b403a4227" },
+    { "label": "Email", "href": "mailto:mail@anandhujayan.com" }
+  ]
+}

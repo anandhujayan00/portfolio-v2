@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Mechanical Component Design",
+    "description": "Design and analysis of complex mechanical components using SolidWorks and CATIA.",
+    "image": "/projects/project1.png",
+    "technologies": ["SolidWorks", "CATIA"],
+    "github": "#",
+    "live": "#",
+    "featured": true
+  },
+  {
+    "title": "Warehouse Layout Optimization",
+    "description": "Streamlining warehouse operations and layout for improved picking efficiency.",
+    "image": "/projects/project2.png",
+    "technologies": ["WMS", "Operations"],
+    "github": "#",
+    "live": "#",
+    "featured": true
+  }
+]

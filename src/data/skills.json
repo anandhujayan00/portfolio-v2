@@ -1,0 +1,42 @@
+{
+  "Engineering": [
+    { "name": "SolidWorks", "level": "Advanced", "icon": "Wrench", "color": "blue", "description": "CAD design and 3D modeling.", "percentage": 90 },
+    { "name": "AutoCAD", "level": "Advanced", "icon": "DraftingCompass", "color": "blue", "description": "2D drafting and technical drawing.", "percentage": 90 },
+    { "name": "CATIA", "level": "Intermediate", "icon": "Box", "color": "blue", "description": "Complex surface modeling.", "percentage": 50 }
+  ],
+  "Logistics": [
+    { "name": "SAP", "level": "Intermediate", "icon": "Database", "color": "blue", "description": "Enterprise resource planning.", "percentage": 60 },
+    { "name": "WMS", "level": "Intermediate", "icon": "Warehouse", "color": "blue", "description": "Warehouse Management Systems.", "percentage": 60 },
+    { "name": "RF Scanner", "level": "Advanced", "icon": "Scan", "color": "blue", "description": "Inventory data collection.", "percentage": 90 },
+    { "name": "Inventory Management", "level": "Advanced", "icon": "Package", "color": "blue", "description": "Managing stock levels.", "percentage": 90 },
+    { "name": "GRN Processing", "level": "Advanced", "icon": "CheckSquare", "color": "blue", "description": "Goods Received Note processing.", "percentage": 90 },
+    { "name": "Order Picking & Packing", "level": "Expert", "icon": "BoxSelect", "color": "blue", "description": "Picking and packing orders.", "percentage": 95 },
+    { "name": "Stock Auditing", "level": "Advanced", "icon": "ClipboardCheck", "color": "blue", "description": "Auditing stock levels.", "percentage": 90 }
+  ],
+  "Software": [
+    { "name": "HTML", "level": "Beginner", "icon": "Globe", "color": "blue", "description": "Web structure.", "percentage": 30 },
+    { "name": "CSS", "level": "Beginner", "icon": "Palette", "color": "blue", "description": "Web styling.", "percentage": 30 },
+    { "name": "JavaScript", "level": "Beginner", "icon": "Code", "color": "blue", "description": "Web interactivity.", "percentage": 30 },
+    { "name": "React", "level": "Beginner", "icon": "Atom", "color": "blue", "description": "UI development.", "percentage": 25 },
+    { "name": "Next.js", "level": "Beginner", "icon": "Layout", "color": "blue", "description": "Full-stack framework.", "percentage": 25 },
+    { "name": "Tailwind CSS", "level": "Beginner", "icon": "Wind", "color": "blue", "description": "UI styling.", "percentage": 30 },
+    { "name": "TypeScript", "level": "Beginner", "icon": "Type", "color": "blue", "description": "Type-safe development.", "percentage": 20 }
+  ],
+  "Design": [
+    { "name": "Photoshop", "level": "Intermediate", "icon": "Palette", "color": "blue", "description": "Image editing.", "percentage": 60 },
+    { "name": "Canva", "level": "Advanced", "icon": "Layout", "color": "blue", "description": "Graphic design.", "percentage": 80 }
+  ],
+  "Web": [
+    { "name": "Google Sites", "level": "Advanced", "icon": "Globe", "color": "blue", "description": "Website creation.", "percentage": 90 },
+    { "name": "SEO Basics", "level": "Intermediate", "icon": "Search", "color": "blue", "description": "Search engine optimization.", "percentage": 60 },
+    { "name": "Domain & DNS", "level": "Intermediate", "icon": "Cloud", "color": "blue", "description": "Domain management.", "percentage": 50 }
+  ],
+  "AI & Automation": [
+    { "name": "ChatGPT", "level": "Expert", "icon": "MessageSquare", "color": "blue", "description": "Research, coding assistance, and content generation.", "percentage": 90 },
+    { "name": "Gemini CLI", "level": "Advanced", "icon": "Terminal", "color": "blue", "description": "Agentic development and scaffolding.", "percentage": 80 },
+    { "name": "Cursor AI", "level": "Advanced", "icon": "Cpu", "color": "blue", "description": "AI-assisted software development.", "percentage": 80 },
+    { "name": "Prompt Engineering", "level": "Advanced", "icon": "Command", "color": "blue", "description": "Advanced prompting.", "percentage": 90 },
+    { "name": "AI-assisted Development", "level": "Advanced", "icon": "Code", "color": "blue", "description": "Developing with AI.", "percentage": 85 },
+    { "name": "Workflow Automation", "level": "Advanced", "icon": "Zap", "color": "blue", "description": "Automating tasks.", "percentage": 80 }
+  ]
+}
