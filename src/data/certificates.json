@@ -1,16 +1,9 @@
 [
   {
-    "title": "SAP Certification",
-    "organization": "SAP",
+    "title": "SOLIDWORKS Certification",
+    "organization": "Udemy",
     "year": "2024",
-    "image": "/certificates/sap.jpg",
-    "credentialLink": "#"
-  },
-  {
-    "title": "Logistics Management",
-    "organization": "Logistics Institute",
-    "year": "2023",
-    "image": "/certificates/logistics.jpg",
+    "image": "/certificates/SolidWorks.jpg",
     "credentialLink": "#"
   }
 ]
