@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import Container from "@/components/shared/Container";
 import Section from "@/components/shared/Section";
 import Heading from "@/components/shared/Heading";
@@ -9,6 +10,31 @@ import { Mail, Link as LinkIcon } from "lucide-react";
 
 export default function Contact() {
   const { contact } = data;
+  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus('loading');
+    setErrorMessage("");
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (!res.ok) throw new Error('Failed to send message');
+      
+      setStatus('success');
+      setFormData({ name: "", email: "", message: "" });
+    } catch (error) {
+      setStatus('error');
+      setErrorMessage(error instanceof Error ? error.message : 'An unexpected error occurred');
+    }
+  };
 
   return (
     <Section id="contact" className="py-20 bg-muted/20">
@@ -17,11 +43,39 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <GlassCard className="p-8">
             <h3 className="text-xl font-bold text-white mb-6">Send a Message</h3>
-            <form className="space-y-4">
-              <input type="text" placeholder="Name" className="w-full bg-gray-900 p-3 rounded-lg border border-gray-800" />
-              <input type="email" placeholder="Email" className="w-full bg-gray-900 p-3 rounded-lg border border-gray-800" />
-              <textarea placeholder="Message" className="w-full bg-gray-900 p-3 rounded-lg border border-gray-800 h-32" />
-              <button className="w-full py-3 bg-blue-600 rounded-lg text-white hover:bg-blue-700 transition">Send Message</button>
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <input 
+                type="text" 
+                placeholder="Name" 
+                required
+                value={formData.name}
+                onChange={(e) => setFormData({...formData, name: e.target.value})}
+                className="w-full bg-gray-900 p-3 rounded-lg border border-gray-800 text-white" 
+              />
+              <input 
+                type="email" 
+                placeholder="Email" 
+                required
+                value={formData.email}
+                onChange={(e) => setFormData({...formData, email: e.target.value})}
+                className="w-full bg-gray-900 p-3 rounded-lg border border-gray-800 text-white" 
+              />
+              <textarea 
+                placeholder="Message" 
+                required
+                value={formData.message}
+                onChange={(e) => setFormData({...formData, message: e.target.value})}
+                className="w-full bg-gray-900 p-3 rounded-lg border border-gray-800 h-32 text-white" 
+              />
+              <button 
+                type="submit" 
+                disabled={status === 'loading'}
+                className="w-full py-3 bg-blue-600 rounded-lg text-white hover:bg-blue-700 transition disabled:opacity-50"
+              >
+                {status === 'loading' ? 'Sending...' : 'Send Message'}
+              </button>
+              {status === 'success' && <p className="text-green-500 text-center">Message sent successfully!</p>}
+              {status === 'error' && <p className="text-red-500 text-center">{errorMessage}</p>}
             </form>
           </GlassCard>
           
