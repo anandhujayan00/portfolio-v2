@@ -1,7 +1,13 @@
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
+  if (process.env.NODE_ENV === 'production') {
+    notFound();
+  }
+
   const files = ['personal', 'projects', 'education', 'experience', 'skills', 'certificates', 'achievements', 'contact', 'social', 'seo', 'settings', 'capabilities', 'stack'];
+// ... rest of the component
 
   return (
     <div className="flex min-h-screen">
